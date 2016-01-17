@@ -1,0 +1,38 @@
+package org.campus02.tierwelt;
+
+public class Animal {
+	
+	private String color;
+	private int countEyes;
+	
+	public Animal(String color, int countEyes) {
+		super();
+		this.color = color;
+		this.countEyes = countEyes;
+	}
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
+	public int getCountEyes() {
+		return countEyes;
+	}
+
+	public void setCountEyes(int countEyes) {
+		this.countEyes = countEyes;
+	}
+	
+	public void walk() {
+		System.out.println("*walks*");
+	}
+	
+	public void makeNoise() {
+		System.out.println("*makes noise*");
+	}
+
+}
