@@ -1,6 +1,6 @@
 package org.campus02.tierwelt;
 
-public class Animal {
+public abstract class Animal {
 	
 	private String color;
 	private int countEyes;
@@ -27,12 +27,8 @@ public class Animal {
 		this.countEyes = countEyes;
 	}
 	
-	public void walk() {
-		System.out.println("*walks*");
-	}
+	public abstract void walk();
 	
-	public void makeNoise() {
-		System.out.println("*makes noise*");
-	}
+	public abstract void makeNoise();
 
 }

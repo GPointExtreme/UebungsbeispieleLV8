@@ -27,9 +27,6 @@ public class Demo {
 		myNature.addAnimal(micki);
 		
 		System.out.println(myNature.countColor("Blue"));
-		
-		
-		
 
 	}
 

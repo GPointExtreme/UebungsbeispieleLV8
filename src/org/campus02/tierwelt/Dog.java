@@ -1,6 +1,9 @@
 package org.campus02.tierwelt;
 
-public class Dog extends Animal {
+public class Dog 
+	extends Animal 
+	implements Fly
+{
 	
 	private String name;
 
@@ -25,6 +28,11 @@ public class Dog extends Animal {
 	@Override
 	public void makeNoise() {
 		System.out.println(name + "*woof*");
+	}
+	
+	@Override
+	public void fly() {
+		System.out.println(name + " fliegt einfach! WIE?");
 	}
 
 }
